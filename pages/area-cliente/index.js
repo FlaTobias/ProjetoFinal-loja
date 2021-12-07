@@ -22,7 +22,7 @@ class AreaDoCliente extends Component {
 
     render(){
         return(
-            <Layout title="Minha Conta | LOJA IT - Melhores produtos para Informática">
+            <Layout title="Minha Conta | IBI Cosméticos Naturais">
                 <Cabecalho />
                 <AreaDoClienteContainer />
                 <Rodape />

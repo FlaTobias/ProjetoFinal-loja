@@ -20,7 +20,7 @@ class Carrinho extends Component {
 
     render(){
         return(
-            <Layout title="Carrinho | LOJA IT - Melhores produtos de tecnologia">
+            <Layout title="Carrinho | IBI - Cosméticos Naturais">
                 <Cabecalho simples />
                 <CarrinhoContainer />
                 <Rodape />

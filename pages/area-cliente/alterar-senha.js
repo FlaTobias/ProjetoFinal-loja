@@ -22,7 +22,7 @@ class AlterarSenha extends Component {
 
     render(){
         return(
-            <Layout title="Alterar Senha | LOJA IT - Melhores produtos em Informática">
+            <Layout title="Alterar Senha | IBI - Cosméticos Naturais">
                 <Cabecalho />
                 <AlterarSenhaContainer />
                 <Rodape />

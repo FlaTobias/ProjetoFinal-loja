@@ -42,10 +42,10 @@ class LoginContainer extends Component {
         const { email, senha, erros } = this.state;
         return (
             <div className="Login-Container">
-                <h2 className="text-center">Minha Conta</h2>
-                <br />
-                <br />
+                <h2 className="text-start">olá novamente!</h2>
+                <span className="text-start">logue com seu email</span>
                 <div className="form-login">
+                <br/>
                     <FormSimples
                         value={email} 
                         erro={erros.email}
@@ -62,22 +62,22 @@ class LoginContainer extends Component {
                         onChange={(e) => this.onChange('senha', e.target.value)}  />
                     <div className="flex flex-right">
                         <a href={`${API}/${versao}/api/usuarios/recuperar-senha`} >
-                            <small>Esqueceu sua senha?</small>
+                            <small>esqueceu a senha?</small>
                         </a>
                     </div>
                     <br />
                     <AlertGeral aviso={this.state.aviso} />
                     <div className="flex flex-center">
                         <button 
-                            className="btn btn-primary" 
+                            className="btn-login" 
                             onClick={() => this.handleSubmit()}>
-                            ENTRAR
+                            entrar
                         </button>
                     </div>
                     <br />
                     <hr />
                     <div className="link-acesso text-center">   
-                        <span onClick={this.props.changeAcesso}>Não tem conta? Clique aqui para cadastrar</span>
+                        <span onClick={this.props.changeAcesso}>ou não tem cadastro? crie sua conta aqui!</span>
                     </div>
                 </div>
             </div>

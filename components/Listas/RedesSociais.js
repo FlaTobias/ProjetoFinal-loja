@@ -5,7 +5,7 @@ const REDES_SOCIAIS = [
     { nome: "facebook", url: "#" },
     { nome: "instagram", url: "#" },
     { nome: "twitter", url: "#" },
-    { nome: "whatsapp", url: "#" },
+    { nome: "youtube", url: "#" },
 ];
 
 const RedesSociais = () => (

@@ -15,9 +15,6 @@ class Cabecalho extends React.Component {
                     <CampoPesquisa />
                     <CardCarrinho />
                 </div>
-                <div className="categorias-wrapper">
-                    <Categorias />
-        </div>
             </div>
         )
     }

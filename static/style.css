@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+
 .Header {
     max-height: 150px;
      }
@@ -337,6 +340,24 @@
     font-size: 0.85rem;
     padding: 5px 8px;
     border-radius: 10px; }
+.btn-login{
+    background-color: #FFCAAF;
+    font-family: Poppins;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 22px;
+    Line-height: 92%;
+    align-items: Center;
+    padding: 15px 60px;
+    border: none;
+   
+}
+
+.Login-Container span {
+    color: #A9ABBD;
+}
+
+
 
 /* CARRINHO */
 .Carrinho > h2 {

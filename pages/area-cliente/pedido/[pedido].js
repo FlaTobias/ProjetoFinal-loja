@@ -26,7 +26,7 @@ class Pedido extends Component {
     render(){
         const { query } = this.props;
         return(
-            <Layout title="Pedido | LOJA TI - Melhores produtos em informática">
+            <Layout title="Pedido | IBI - Cosméticos Naturais">
                 <Cabecalho />
                 <PedidoContainer query={query} />
                 <Rodape />

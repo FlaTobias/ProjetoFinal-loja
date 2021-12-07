@@ -28,7 +28,7 @@ class ProdutoPage extends Component {
     render(){
         const { produto } = this.props;
         return(
-            <Layout title={`${produto ? produto.titulo : ""} | LOJA IT - Melhores produtos de tecnologia`}>
+            <Layout title={`${produto ? produto.titulo : ""} | IBI - Cosméticos Naturais`}>
                 <Cabecalho />
                 <Produto />
                 <Rodape />

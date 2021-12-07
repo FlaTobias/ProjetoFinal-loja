@@ -23,7 +23,7 @@ class DadosDoCliente extends Component {
     
     render(){
         return(
-            <Layout title="Meus Dados | LOJA IT - Melhores produtos em Informática">
+            <Layout title="Meus Dados | IBI - Cosméticos Naturais">
                 <Cabecalho />
                 <DadosContainer />
                 <Rodape />

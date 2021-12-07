@@ -2,15 +2,15 @@ import React, { Component } from 'react';
 
 import Layout from '../components/Layout';
 import Cabecalho from '../containers/Cabecalho';
-import SucessoContainer from '../containers/Sucesso';
+
 import Rodape from '../containers/Rodape';
 
-export default class Sucesso extends Component {
+export default class sobre extends Component {
     render(){
         return(
             <Layout title="IBI - Cosméticos Naturais">
-                <Cabecalho simples />
-                <SucessoContainer />
+                <Cabecalho />
+                
                 <Rodape />
             </Layout>
         )
