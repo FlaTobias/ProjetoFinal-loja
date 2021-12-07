@@ -1,10 +1,12 @@
 .Header {
-    max-height: 150px; }
+    max-height: 150px;
+     }
 .header-wrapper, .categorias {
     max-width: 1200px;
     margin: 0 auto;
     width: 100%;
-    display: flex; }
+    display: flex;
+ }
 @media screen and (max-width: 720px){
     .header-wrapper {
         flex-direction: column; }
@@ -15,8 +17,12 @@
 }
 
 .logo {
-    max-width: 230px;
-    cursor: pointer; }
+    max-width: 100px;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    
+}
 .input-pesquisa {
     font-size: 1rem;
     color: #333;
@@ -25,6 +31,7 @@
     border: 1px solid #aaa;
     border-radius: 10px;
     margin: 0 10px;
+    
 }
 .button-pesquisa {
     margin-left: -45px;
@@ -47,17 +54,13 @@
     color: #777;
     font-size: 17px;
     margin-right: 15px; }
-.item-cabecalho.cart {
-    margin-left: 15px;
-    margin-right: 20px;
-}
+
 .item-cabecalho.cart span {
     font-size: 1rem;
     
     color: #fff;
     border-radius: 100px;
     padding: 0 5px;
-    margin-left: -15px;
     position: relative;
     top: -15px;
 }
@@ -118,7 +121,7 @@
 
 /* BENEFICIOS */
 .Beneficios {
-    margin-top: 40px;
+    padding-top: 40px;
 }
 
 
@@ -130,6 +133,7 @@
     color: #222;
     font-size: 2rem;
     font-weight: bold;
+    margin-left: 50%;
 }
 
 .produto {
@@ -533,21 +537,54 @@ table.simples td {
 
 /* RODAPE */
 .Rodape {
-    background: #111111;
+    background: #EFF2F6;
     padding: 60px 0;
     color: #fff;
     margin-top: 100px;
+    width: 100%;
+    
 }
 .Rodape a {
-    color: #ff9600;
+    color: black;
 }
 .Rodape i.fa {
-    color: #fff;
+    color: black;
     font-size: 1.5rem;
     padding: 15px 0;
 }
 .Rodape h2 {
-    font-size: 1.3re,;
-    color: #ff9600;
+    font-size: clamp(1.2rem, 2.0vw, 2.5rem);
+    color: black;
     font-weight: bold;
+}
+
+.Rodape span {
+    font-size: clamp(0.8rem, 1.5vw, 2rem);
+    color: #979797;
+    padding-top: 10px;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+.redes {
+    margin: 10px;
+}
+.blocoredes {
+    display: flex;
+    justify-content: center;
+}
+.roda {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+    
+.final {
+    
+    flex-direction: column;
+    
+}
+.cartoes{
+    justify-content: center;
 }

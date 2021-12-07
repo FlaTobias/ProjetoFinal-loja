@@ -18,7 +18,7 @@ export default class Checkout extends Component {
     render(){
         return(
             <Layout 
-                title="Checkout | LOJA IT - Melhores produtos de tecnologia"
+                title="Checkout | IBI Cosméticos Naturais"
                 pagSeguro >
                 <Cabecalho simples />
                 <CheckoutContainer />

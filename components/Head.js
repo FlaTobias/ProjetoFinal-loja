@@ -36,7 +36,7 @@ const Head = props => (
             props.pagSeguro ? (
                 <script
                     type="text/javascript"
-                    src="https://stc.sandbox.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.directpayment.js" >
+                    src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.directpayment.js" >
                 </script>
             ) : null
         }

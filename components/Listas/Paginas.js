@@ -2,22 +2,19 @@ import React from 'react';
 import Link from 'next/link';
 
 const Paginas = () => (
-    <div className="flex-1 flex vertical institucional">
+    <div className="footer">
         <div>
-            <h2>Páginas</h2>
-            <br />
+            <h2>sobre a ibi</h2>
+            
         </div>
-        <Link href="/">
-            <span>Página Inicial</span>
-        </Link>
-        <Link href="/carrinho">
-            <span>Ver Sacola</span>
-        </Link>
-        <Link href="/area-cliente/">
-            <span>Minha Conta</span>
-        </Link>
         <Link href="/sobre">
-            <span>Sobre a Loja</span>
+            <span>nossa história</span>
+        </Link>
+        <Link href="/">
+            <span>onde encontrar</span>
+        </Link>
+        <Link href="/">
+            <span>certificações</span>
         </Link>
     </div>
 )

@@ -9,15 +9,15 @@ const REDES_SOCIAIS = [
 ];
 
 const RedesSociais = () => (
-    <div className="flex-1 flex vertical">
+    <div className="redessociais">
         <div>
-            <h2>Redes Sociais</h2>
-            <br />
+            <h2>conheça nossas redes</h2>
+            
         </div>
-        <div className="flex-1 flex redes-sociais wrap">
+        <div className="blocoredes">
             {
                 REDES_SOCIAIS.map((item, idx)=> (
-                    <div className="flex-1 flex" key={idx}>
+                    <div className="redes" key={idx}>
                         <Link href={item.url}>
                             <i className={`fa fa-${item.nome} fa-lg`}></i>
                         </Link>

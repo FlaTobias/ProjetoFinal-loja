@@ -1,4 +1,4 @@
-{/*import React, { Component } from 'react';
+import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Link from 'next/link';
 
@@ -26,4 +26,4 @@ const mapStateToProps = state => ({
     categorias: state.categoria.categorias
 })
 
-export default connect(mapStateToProps)(Categorias);*/}
+export default connect(mapStateToProps)(Categorias);

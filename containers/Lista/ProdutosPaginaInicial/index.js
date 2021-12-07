@@ -8,7 +8,7 @@ class ProdutosPaginaInicial extends Component {
     render(){
         return (
             <div className="container Produtos-Pagina-Inicial flex vertical">
-                <h2>Lançamentos</h2>
+                <h2>mais vendidos</h2>
                 <br />
                 <Produtos
                     produtos={ this.props.produtos ? this.props.produtos.docs : [] }
