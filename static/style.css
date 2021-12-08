@@ -3,6 +3,7 @@
 
 .Header {
     max-height: 150px;
+    background-color: white;
      }
 .header-wrapper, .categorias {
     max-width: 1200px;
@@ -94,9 +95,13 @@
     margin-top: 15%;
     margin-left: 10%;
    
-    font-size: clamp(1rem, 4.0vw, 5rem);
-    
-    
+    font-size: clamp(1rem, 4.0vw, 5rem);  
+}
+.banner-info span{
+    position: absolute;
+    color: white;
+    margin-top: 5%;
+    font-size: clamp(1rem, 3.0vw, 3rem); 
 }
 .banner-info p{
     position: absolute;
@@ -355,7 +360,9 @@
 
 .Login-Container span {
     color: #A9ABBD;
+
 }
+
 
 
 
