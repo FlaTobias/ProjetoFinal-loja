@@ -25,8 +25,8 @@ class MenuAreaDoCliente extends Component {
         const { usuario } = this.props;
         return (
             <div>
-                <h3>Oi, {usuario ? usuario.nome : "cliente"}!<br /> Seja bem-vindo a Área do Cliente.</h3>
-                <p>Por aqui você pode acompanhar seus pedidos e também alterar seus dados de acesso e senha.</p>
+                <h3>Oi, {usuario ? usuario.nome : "cliente"}!<br /> seja bem-vindo a área do cliente.</h3>
+                <p>por aqui você pode acompanhar seus pedidos e também alterar seus dados de acesso e senha.</p>
             </div>
         )
     }

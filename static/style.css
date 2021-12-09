@@ -209,7 +209,7 @@
     font-size: 0.9rem;
     color: #555; }
 .Produto-Hero .categoria-link {
-    color: #e87c08;
+    color: #FFCAAF;
     cursor: pointer; }
 
 .Produto-Hero .preco-original,
@@ -237,9 +237,9 @@
     cursor: pointer; }
 .Produto-Hero .variacao:hover,
 .Produto-Hero .variacao.variacao-active {
-    background-color: #111111;
+    background-color: #FFCAAF;
     border-color: #111111;
-    color: #FFF; }
+    color: #111111; }
 
 .Produto-Hero .opcoes {
     margin-top: 20px; }
@@ -356,6 +356,12 @@
     padding: 15px 60px;
     border: none;
    
+}
+
+.btn-salvar{
+    background-color: #FFCAAF;
+    color: #111111;
+    border: none;
 }
 
 .Login-Container span {
@@ -490,7 +496,7 @@
 }
 
 .menu-lateral {
-    border-top: 3px solid #ff9600;
+    border-top: 3px solid #FFCAAF;
     margin-top: 30px;
 }
 .menu-lateral-item {
@@ -502,8 +508,8 @@
     cursor: pointer; }
 .menu-lateral-item-active, 
 .menu-lateral-item:hover {
-    background-color: #111111;
-    color: #FFF; }
+    background-color: #EFF2F6;
+    color: #979797; }
 
 .conteudo-area-cliente {
     margin: 10px 10px 10px 30px;
@@ -513,8 +519,9 @@
 }
 
 .menu-pedidos {
-    background-color: #111111;
-    color: #FFF;
+    border-top: 3px solid #FFCAAF;
+    background-color: #EFF2F6;
+    color: #111111;
 }
 .Pedido-Card {
     padding: 15px 0;
