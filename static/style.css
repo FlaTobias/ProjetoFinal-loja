@@ -155,7 +155,9 @@
 .produto:hover {
     box-shadow: 0 0 7px #ddd;
 }
-.produto-image { height: 250px; }
+.produto-image { 
+    height: 250px;
+ }
 .produto-title {
     font-size: 1.2rem;
     text-align: center;

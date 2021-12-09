@@ -171,8 +171,8 @@ class Hero extends Component{
                     </div>
                 </div>
                 <div className="comprar">
-                    <button className="btn btn-success btn-cta" onClick={() => this.addCart()}>
-                        COMPRAR
+                    <button className="btn btn-salvar btn-cta" onClick={() => this.addCart()}>
+                        comprar
                     </button>
                 </div>
             </div>

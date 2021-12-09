@@ -194,9 +194,9 @@ class FormularioDados extends Component {
                 <AlertGeral aviso={this.state.aviso} />
                 <div className="flex flex-start">
                     <button 
-                        className="btn btn-primary"
+                        className="btn btn-salvar"
                         onClick={() => this.handleSubmit()} >
-                        SALVAR
+                        salvar
                     </button>
                 </div>                
             </div>
