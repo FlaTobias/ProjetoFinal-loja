@@ -134,6 +134,31 @@
 }
 
 
+/*Sociais*/
+
+
+.texto-insta h2{
+    font-size: 62px;
+}
+.texto-insta p{
+    font-size: 18px;
+    color: #979797;
+}
+
+.redes-sociais {
+    display: flex;
+}
+.insta1 {
+    margin: 0 10px;
+}
+
+    
+
+
+
+
+
+
 /* PRODUTOS */
 .Produtos-Pagina.Inicial {
     margin: 30px auto;
@@ -339,6 +364,15 @@
     background-color: #FFCAAF;
     color: #111111;
     border: none;
+}
+.btn-insta {
+    background-color: white;
+    color: #111111;
+    border:#111111;
+    border-style: solid;
+    padding-right: 10px;
+    
+    
 }
 .btn-cta {
     padding: 15px 25px;

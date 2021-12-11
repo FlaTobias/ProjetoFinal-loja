@@ -6,6 +6,7 @@ import Cabecalho from '../containers/Cabecalho';
 import Banners from '../containers/Banners';
 import Beneficios from '../containers/Beneficios';
 import ProdutosPaginaInicial from '../containers/Lista/ProdutosPaginaInicial';
+import Sociais from '../containers/Sociais';
 import Rodape from '../containers/Rodape';
 
 import initialize from '../utils/initialize';
@@ -14,7 +15,6 @@ import { fetchData } from '../utils/fetch';
 
 import { connect } from 'react-redux';
 import actions from '../redux/actions';
-import Categorias from '../components/Listas/Categorias';
 
 class Index extends Component {
 
@@ -36,6 +36,7 @@ class Index extends Component {
                 <Banners />
                 <Beneficios />
                 <ProdutosPaginaInicial />
+                <Sociais />
                 <Rodape />
             </Layout>
         )
