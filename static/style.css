@@ -494,17 +494,31 @@
     font-size: 24px;
 }
 .casal {
+    display: flex;
     width: 100%;
     height: 100%;
     padding-top: 45px;
 }
 .arvore {
+    display: flex;
     width: 100%;
     height: 100%;
     padding-top: 45px;
 }
 
+/*encontrar*/
 
+
+.onde-texto{
+    margin-top: 10px;
+    text-align: center;
+    font-size: clamp(1rem, 1.75vw, 2rem);
+}
+
+.onde{
+    display: flex;
+    justify-content: center;
+}
 
 
 /* MINHA CONTA */
