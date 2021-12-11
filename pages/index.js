@@ -14,6 +14,7 @@ import { fetchData } from '../utils/fetch';
 
 import { connect } from 'react-redux';
 import actions from '../redux/actions';
+import Categorias from '../components/Listas/Categorias';
 
 class Index extends Component {
 

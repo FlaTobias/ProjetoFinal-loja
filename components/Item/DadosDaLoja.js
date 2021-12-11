@@ -7,13 +7,13 @@ const DadosDaLoja = () => (
             <h2>precisa de ajuda?</h2>
             
         </div>
-        <Link href="/">
+        <Link href="/area-cliente">
             <span>privacidade</span>
         </Link>
-        <Link href="/">
+        <Link href="/area-cliente">
             <span>troca e devolução</span>
         </Link>
-        <Link href="/">
+        <Link href="/area-cliente">
             <span>fale com a gente</span>
         </Link>
     </div>

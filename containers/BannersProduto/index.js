@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 const IMAGES = [
-    "/static/BannersProduto.png"
+    "/static/banners/bannerNT.jpg"
 ];
 
 class Banners extends Component {
@@ -32,7 +32,6 @@ class Banners extends Component {
         return (
             <div className="banner-info">
                 
-                    <span className="nossa">nossa trajetória</span>
                     <img src={img} className="banner" alt="banner" width="100%" />
                 
                 

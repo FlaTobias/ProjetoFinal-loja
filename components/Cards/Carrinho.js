@@ -13,7 +13,7 @@ class CardCarrinho extends Component {
         return (
             <div className="itens-cabecalho flex-1 flex flex-center">
 
-                <Link href="/">
+                <Link href="/sobre">
                 <div className="item-cabecalho ">
                     
                     <span>sobre</span>

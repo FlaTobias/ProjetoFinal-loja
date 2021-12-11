@@ -10,10 +10,10 @@ const Paginas = () => (
         <Link href="/sobre">
             <span>nossa história</span>
         </Link>
-        <Link href="/">
+        <Link href="/encontrar">
             <span>onde encontrar</span>
         </Link>
-        <Link href="/">
+        <Link href="/certificados">
             <span>certificações</span>
         </Link>
     </div>

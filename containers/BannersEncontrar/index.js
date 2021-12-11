@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
 const IMAGES = [
-    "/static/banners/beneficios.png"
+    "/static/banners/bannerOE.jpg"
 ];
 
-class Beneficios extends Component {
+class Banners extends Component {
     state = { 
         img: IMAGES[0],
         idx: 0
@@ -30,8 +30,11 @@ class Beneficios extends Component {
     renderBanners(){
         const { img } = this.state;
         return (
-            <div className="flex-1 banner">
-                <img src={img} className="banner" alt="banner" width="100%" />
+            <div className="banner-info">
+                
+                    <img src={img} className="banner" alt="banner" width="100%" />
+                
+                
             </div>
         )
     }
@@ -45,4 +48,4 @@ class Beneficios extends Component {
     }
 }
 
-export default Beneficios;
+export default Banners;

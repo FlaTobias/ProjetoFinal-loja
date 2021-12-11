@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 
 const IMAGES = [
-    "/static/banner.png"
+    "/static/banners/banner01.jpg",
+    "/static/banners/banner02.jpg",
+    "/static/banners/banner03.jpg",
 ];
 
 class Banners extends Component {
@@ -32,9 +34,8 @@ class Banners extends Component {
         return (
             <div className="banner-info">
                 
-                    <h2 className="display-1">cuida do planeta e de você!</h2>
-                    <p>produtos 100% sustentáveis</p>
-                    <a href="/" className="botao-banner">comprar</a>
+                    
+                
                     <img src={img} className="banner" alt="banner" width="100%" />
                 
                 
