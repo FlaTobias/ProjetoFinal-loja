@@ -10,7 +10,7 @@ const CardLinks = () => (
                 <span className='cardFonte onde'>onde encontrar</span>
             </div>
             <div className="emb flex-1 flex flex-center vertical">
-                <Link href="/cembalagens">
+                <Link href="/embalagens">
                     <img src="/static/cardEmb.png" className="cardEmb"  />
                 </Link>
                 <span className='cardFonte'>embalagens</span>

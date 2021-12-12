@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const Embalagens = () => (
-    < div className='container-embalagens'>
+    <div className='container-embalagens'>
         <div className='section-one-embalagens'>
             <span className='introducao-embalagens'>
                 Nós estamos pensando sempre em utilizar da melhor forma nossos recursos para ajudar você e o meio ambiente. 
