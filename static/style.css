@@ -11,27 +11,6 @@
     width: 100%;
     display: flex;
  }
-@media screen and (max-width: 720px){
-    .header-wrapper {
-        flex-direction: column; }
-    .categorias {
-        overflow-x: scroll; }
-    .Header {
-        max-height: 260px; }
-}
-
-@media  screen and (max-width: 920px) {
-    .imagens-certificacoes{
-        flex-direction: column;
-    }
-    .selo-certificacoes {
-        margin-bottom: 20px 24px;
-    }
-    .section-two-certificacoes{
-        flex-direction: column;
-        align-items: center;
-    }    
-}
 
 .logo {
     max-width: 100px;
@@ -583,6 +562,63 @@
     padding-bottom: 30px;
 }
 
+/* EMBALAGENS */
+.container-embalagens {
+    background-color: #EFF2F6;
+    padding: 26px 24px 64px;
+}
+
+.section-one-embalagens {
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+}
+
+.introducao-embalagens {
+    max-width: 916px;
+    font-size: 28px;
+    line-height: 62px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.lista-embalagens{
+    padding-top: 74px;
+}
+.item-embalagens {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 84px;
+}
+
+.foto-embalagens {
+    max-width: 322px;
+    width: 100%;
+    max-height: 322px;
+    height: 100%;
+    margin: 0 32px;
+}
+
+.texto-embalagens {
+    max-width: 808px;
+}
+
+.lista-embalagens div:nth-child(2) .texto-embalagens {
+    text-align: end;
+} 
+
+.titulo-embalagens {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0 0 30px;
+}
+
+.descricao-embalagens {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 44px;
+}
+
 /* MINHA CONTA */
 .Acesso-Container {
     margin: 50px auto 10px;
@@ -743,4 +779,41 @@ table.simples td {
 }
 .cartoes{
     justify-content: center;
+}
+
+@media screen and (max-width: 720px){
+    .header-wrapper {
+        flex-direction: column; }
+    .categorias {
+        overflow-x: scroll; }
+    .Header {
+        max-height: 260px; }
+}
+
+@media  screen and (max-width: 920px) {
+    .imagens-certificacoes{
+        flex-direction: column;
+    }
+    .selo-certificacoes {
+        margin-bottom: 20px 24px;
+    }
+    .section-two-certificacoes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .item-embalagens{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .lista-embalagens div:nth-child(2) {
+        flex-direction: column-reverse;
+    }
+    .texto-embalagens {
+        margin-top: 20px;
+    }
+    .lista-embalagens div:nth-child(2) .texto-embalagens {
+        text-align: center;
+    }
+
 }
