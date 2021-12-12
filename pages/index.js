@@ -8,6 +8,7 @@ import Beneficios from '../containers/Beneficios';
 import CardCat from '../containers/CardCat';
 import ProdutosPaginaInicial from '../containers/Lista/ProdutosPaginaInicial';
 import Sociais from '../containers/Sociais';
+import CardLinks from '../containers/CardLinks';
 import Rodape from '../containers/Rodape';
 
 import initialize from '../utils/initialize';
@@ -16,6 +17,7 @@ import { fetchData } from '../utils/fetch';
 
 import { connect } from 'react-redux';
 import actions from '../redux/actions';
+
 
 class Index extends Component {
 
@@ -39,6 +41,7 @@ class Index extends Component {
                 <CardCat />
                 <ProdutosPaginaInicial />
                 <Sociais />
+                <CardLinks />
                 <Rodape />
             </Layout>
         )
