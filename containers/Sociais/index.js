@@ -2,7 +2,8 @@ import React from 'react';
 
 
 const Sociais = () => (
-    <div className='redes-socias flex flex-center'>
+    <div className='redes-sociais flex flex-center'>
+        <div className='instagrans flex'>
         <div className="insta1">
             <img src="/static/insta1.png" className="insta1" />
 
@@ -10,6 +11,7 @@ const Sociais = () => (
         <div className='insta2'>
             <img src="/static/insta2.png" className="insta2" />
     
+        </div>
         </div>
         <div className='texto-insta text-center'>
             <h2>área rede social</h2>

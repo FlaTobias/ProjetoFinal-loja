@@ -138,26 +138,31 @@
 
 
 .texto-insta h2{
-    font-size: 62px;
+    font-size: clamp(2.5rem, 3.25vw, 4rem);
 }
 .texto-insta p{
     font-size: 18px;
     color: #979797;
 }
 
-.redes-sociais {
-    display: flex;
-}
+
 .insta1 {
     margin: 0 10px;
 }
 
-    
-
-
-
-
-
+@media screen and (max-width: 720px){
+    .redes-sociais {
+        flex-direction: column; 
+        padding: 0;
+    }
+    .texto-insta {
+        padding: 0;
+    }
+    .insta1, .insta2 {
+        width: 100%;
+        margin: 0;
+    }   
+}
 
 /* PRODUTOS */
 .Produtos-Pagina.Inicial {
@@ -538,6 +543,17 @@
     width: 100%;
     height: 100%;
     padding-top: 45px;
+}
+
+@media screen and (max-width: 720px){
+    .historia  {
+        flex-direction: column; 
+        padding: 0;
+    }
+    .texto-sobre {
+        padding: 0;
+    }
+    
 }
 
 /*encontrar*/
