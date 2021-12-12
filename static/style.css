@@ -20,6 +20,19 @@
         max-height: 260px; }
 }
 
+@media  screen and (max-width: 920px) {
+    .imagens-certificacoes{
+        flex-direction: column;
+    }
+    .selo-certificacoes {
+        margin-bottom: 20px 24px;
+    }
+    .section-two-certificacoes{
+        flex-direction: column;
+        align-items: center;
+    }    
+}
+
 .logo {
     max-width: 100px;
     cursor: pointer;
@@ -504,8 +517,71 @@
     padding-top: 45px;
 }
 
+/* CERTIFICAÇOES */
 
+.section-one-certificacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 68px 0 88px;
+}
 
+.texto-certificacoes {
+    text-align: center;
+    font-size: 24px;
+    line-height: 62px;
+    font-weight: 400;
+    padding: 0 32px 63px;
+}
+
+.imagens-certificacoes {
+    display: flex;
+}
+
+.selo-certificacoes {
+    max-width: 128px;
+    width: 100%;
+    margin: 0 92px;
+}
+
+.section-two-certificacoes {
+    background-color: #EFF2F6;
+    display: flex;
+    justify-content: center;
+    padding: 88px 32px 88px;
+}
+
+.foto-certificacoes {
+    max-width: 312px;
+    max-height: 322px;
+    width: 100%;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.texto-lista-certificacoes {
+    max-width: 808px;
+}
+
+.titulo-certificacoes {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 62px;
+    margin: 0 0 26px;
+}
+
+.lista-certificacoes {
+    list-style: none;
+    font-size: 24px;
+    line-height: 44px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+.item-certificacoes {
+    padding-bottom: 30px;
+}
 
 /* MINHA CONTA */
 .Acesso-Container {
