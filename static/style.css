@@ -11,14 +11,6 @@
     width: 100%;
     display: flex;
  }
-@media screen and (max-width: 720px){
-    .header-wrapper {
-        flex-direction: column; }
-    .categorias {
-        overflow-x: scroll; }
-    .Header {
-        max-height: 260px; }
-}
 
 .logo {
     max-width: 100px;
@@ -186,7 +178,7 @@
 
 .enc, .emb, .cert{
     display: flex;
-    padding: 100px 0;
+    padding: 80px 0;
     font-size: 25px;
     align-items: center;
 }
@@ -639,7 +631,128 @@
     display: flex;
     justify-content: center;
 }
+/* CERTIFICAÇOES */
 
+.section-one-certificacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 68px 0 88px;
+}
+
+.texto-certificacoes {
+    text-align: center;
+    font-size: 24px;
+    line-height: 62px;
+    font-weight: 400;
+    padding: 0 32px 63px;
+}
+
+.imagens-certificacoes {
+    display: flex;
+}
+
+.selo-certificacoes {
+    max-width: 128px;
+    width: 100%;
+    margin: 0 92px;
+}
+
+.section-two-certificacoes {
+    background-color: #EFF2F6;
+    display: flex;
+    justify-content: center;
+    padding: 88px 32px 88px;
+}
+
+.foto-certificacoes {
+    max-width: 312px;
+    max-height: 322px;
+    width: 100%;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.texto-lista-certificacoes {
+    max-width: 808px;
+}
+
+.titulo-certificacoes {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 62px;
+    margin: 0 0 26px;
+}
+
+.lista-certificacoes {
+    list-style: none;
+    font-size: 24px;
+    line-height: 44px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+.item-certificacoes {
+    padding-bottom: 30px;
+}
+
+/* EMBALAGENS */
+.container-embalagens {
+    background-color: #EFF2F6;
+    padding: 26px 24px 64px;
+}
+
+.section-one-embalagens {
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+}
+
+.introducao-embalagens {
+    max-width: 916px;
+    font-size: 28px;
+    line-height: 62px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.lista-embalagens{
+    padding-top: 74px;
+}
+.item-embalagens {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 84px;
+}
+
+.foto-embalagens {
+    max-width: 322px;
+    width: 100%;
+    max-height: 322px;
+    height: 100%;
+    margin: 0 32px;
+}
+
+.texto-embalagens {
+    max-width: 808px;
+}
+
+.lista-embalagens div:nth-child(2) .texto-embalagens {
+    text-align: end;
+} 
+
+.titulo-embalagens {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0 0 30px;
+}
+
+.descricao-embalagens {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 44px;
+}
 
 /* MINHA CONTA */
 .Acesso-Container {
@@ -748,7 +861,7 @@ table.simples td {
     background: #EFF2F6;
     padding: 60px 0;
     color: #fff;
-    margin-top: 100px;
+    
     width: 100%;
     
 }
@@ -801,4 +914,41 @@ table.simples td {
 }
 .cartoes{
     justify-content: center;
+}
+
+@media screen and (max-width: 720px){
+    .header-wrapper {
+        flex-direction: column; }
+    .categorias {
+        overflow-x: scroll; }
+    .Header {
+        max-height: 260px; }
+}
+
+@media  screen and (max-width: 920px) {
+    .imagens-certificacoes{
+        flex-direction: column;
+    }
+    .selo-certificacoes {
+        margin-bottom: 20px 24px;
+    }
+    .section-two-certificacoes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .item-embalagens{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .lista-embalagens div:nth-child(2) {
+        flex-direction: column-reverse;
+    }
+    .texto-embalagens {
+        margin-top: 20px;
+    }
+    .lista-embalagens div:nth-child(2) .texto-embalagens {
+        text-align: center;
+    }
+
 }
