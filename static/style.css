@@ -127,12 +127,58 @@
     
     
 }
+.Produtos-Pagina-Inicial h2 {
+    text-align: center;
+}
 
 /* BENEFICIOS */
 .Beneficios {
     padding-top: 40px;
+    margin-bottom: 50px;
 }
 
+/*cardCat*/
+
+.Card-categorias{
+    margin: 50px 0;
+}
+
+.sh{
+    position: relative;
+}
+
+.cardSH{
+    position: absolute;
+}
+
+.sh span{
+    position: absolute;
+    color: white;
+}
+.hb{
+    position: relative;
+}
+
+.cardHB{
+    position: absolute;
+}
+
+.hb span{
+    position: absolute;
+    color: white;
+}
+.cp{
+    position: relative;
+}
+
+.cardCP{
+    position: absolute;
+}
+
+.cp span{
+    position: absolute;
+    color: white;
+}
 
 /*Sociais*/
 

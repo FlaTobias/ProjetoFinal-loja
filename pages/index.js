@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 import Cabecalho from '../containers/Cabecalho';
 import Banners from '../containers/Banners';
 import Beneficios from '../containers/Beneficios';
+import CardCat from '../containers/CardCat';
 import ProdutosPaginaInicial from '../containers/Lista/ProdutosPaginaInicial';
 import Sociais from '../containers/Sociais';
 import Rodape from '../containers/Rodape';
@@ -35,6 +36,7 @@ class Index extends Component {
                 <Cabecalho />
                 <Banners />
                 <Beneficios />
+                <CardCat />
                 <ProdutosPaginaInicial />
                 <Sociais />
                 <Rodape />
