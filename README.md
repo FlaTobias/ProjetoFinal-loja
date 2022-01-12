@@ -18,7 +18,7 @@
 <br>
 
 <p align="center">
-  <img alt="Ibi Banner" src=".github/ibiBanner.png" width="100%">
+  <img alt="Ibi Banner" src=".github/Home.svg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
