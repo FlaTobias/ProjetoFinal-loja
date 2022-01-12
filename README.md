@@ -6,9 +6,9 @@
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-desafio">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Ibi">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">A Ibi</a>
+  <a href="#-O desafio">Desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-A Ibi">A Ibi</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>
 </p>
 
 <div align="center">
@@ -45,4 +45,4 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 
 ---
 
-Feito com ♥ by Grupo 9 Do Desafio Final da  <img alt="logo gama" src=".github/logo-gama.svg">  XP-39
+<p align="center">Feito com ♥ by Grupo 9 Do Desafio Final da  <img alt="logo gama" src=".github/logo-gama.svg">  XP-39</p>
