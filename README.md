@@ -1,7 +1,7 @@
 <h1 align="center">Projeto Final XP-39</h1>
 
 <h1 align="center">
-  <img alt="Logo Ibi" title="Ibi" src=".github/ibi-logo.png" width="100px" />
+  <img alt="Logo Ibi" title="Ibi" src=".github/ibi-logo.png" width="200px" />
 </h1>
 
 <p align="center">
@@ -18,7 +18,7 @@
 <br>
 
 <p align="center">
-  <img alt="Ibi Banner" src=".github/Home.svg" width="100%">
+  <img alt="Ibi Banner" src=".github/Home.svg" width="80%">
 </p>
 
 ## 🚀 Tecnologias
