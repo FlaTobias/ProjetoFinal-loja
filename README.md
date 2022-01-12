@@ -6,13 +6,13 @@
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-desafio">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Ibi">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">A Ibi</a>
 </p>
 
 <div align="center">
-  <a href="http://ibicosmeticos.tk/"><img alt="License" src="https://img.shields.io/static/v1?label=Link Site&message=GAV&color=49AA26&labelColor=000000"></a>
+  <a href="http://ibicosmeticos.tk/"><img alt="License" src="https://img.shields.io/static/v1?label=Link Site&message=Ibi&color=49AA26&labelColor=000000"></a>
 </div>
 
 <br>
