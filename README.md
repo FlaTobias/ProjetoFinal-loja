@@ -6,8 +6,8 @@
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-O">Desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-A">A Ibi</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Desafio">Desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Ibi">A Ibi</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>
 </p>
 
@@ -30,11 +30,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Redux
 - Axios
 
-## 💻 O desafio
+## 💻 Desafio
 
 O objetivo do desafio proposto pela Gama Academy foi criar uma página web, responsiva, que apresentasse o portfólio de um novo empreendimento, de modo a aplicar todo o conhecimento que adquirimos ao longo do curso.
 
-## 👉 A Ibi
+## 👉 Ibi
 
 A Ibi tem uma história jovem, começando pela trajetória de dois jovens recém casados em 2019, que resolvem abrir uma empresa própria de estética. Com a vinda da pandemia, surgiram as dificuldades financeiras. O negócio fechou e as contas continuavam!
 Como bons trabalhadores resolveram se virar sozinhos e se inspiraram naquilo que acreditavam e que carregam consigo como modo de vida, o vegetarianismo e a consciência com os cuidados da natureza e animais. Foi assim que surgiu a Ibi Cosméticos Naturais. Ele, químico ficou responsável pela alquimia do desenvolvimento dos produtos. Ela, esteticista e artista, assumiu a criação da marca, sua simbologia e dos toques de fragrância dos nossos produtos.
