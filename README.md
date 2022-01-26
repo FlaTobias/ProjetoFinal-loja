@@ -11,10 +11,6 @@
   <a href="#-layout">Layout</a>
 </p>
 
-<div align="center">
-  <a href="http://ibicosmeticos.tk/"><img alt="License" src="https://img.shields.io/static/v1?label=Link Site&message=Ibi&color=49AA26&labelColor=000000"></a>
-</div>
-
 <br>
 
 <p align="center">
